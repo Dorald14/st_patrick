@@ -1,3 +1,26 @@
 h1{
-    color: rgb(92, 17, 17);
+   
+    text-align: center;
+}
+body{
+    background-image: url(../leaves.jpg);
+}
+h1, h2, p, li{
+    font-weight: bold;
+    text-shadow:0 2px 20px;
+}
+
+.patrick-img{
+    width: 40%;
+    height: 770px;
+    float: right;
+    padding: 0 0 0 15px;
+}
+li{
+    list-style: none;
+}
+ul{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
