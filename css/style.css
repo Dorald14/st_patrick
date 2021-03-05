@@ -1,13 +1,21 @@
 h1{
    
-    text-align: center;
+    
 }
 body{
-    background-image: url(../leaves.jpg);
+    background-size: 100%;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../leaves.jpg);
 }
 h1, h2, p, li{
-    font-weight: bold;
-    text-shadow:0 2px 20px;
+    color:honeydew;
+    font-weight: none;
+    text-align: center;
+    text-shadow: black 0 1px 4px;
 }
 
 .patrick-img{
@@ -15,6 +23,7 @@ h1, h2, p, li{
     height: 770px;
     float: right;
     padding: 0 0 0 15px;
+    border-radius: 25%;
 }
 li{
     list-style: none;
